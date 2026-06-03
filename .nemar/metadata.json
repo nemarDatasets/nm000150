@@ -1,0 +1,100 @@
+{
+  "version": "2.0",
+  "pipeline_stage": "enriched",
+  "authors": {
+    "Jens Madsen": {
+      "orcid": "0000-0001-8163-001X"
+    },
+    "Nikhil Kuppa": {},
+    "Lucas Parra": {}
+  },
+  "related_identifiers": [
+    {
+      "identifier": "10.1038/s41597-026-07215-1",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "10.1101/2025.04.29.651259",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/nm000150",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=nm000150",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    }
+  ],
+  "funding_references": [
+    {
+      "funder_name": "National Science Foundation",
+      "award_number": "DRL-1660548"
+    },
+    {
+      "funder_name": "National Science Foundation",
+      "award_number": "DRL-2201835"
+    }
+  ],
+  "title": "The Brain, Body, and Behaviour Dataset (1.0.0) - Experiment 1",
+  "license": "CC BY 4.0",
+  "dataset_type": "derivative",
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "beh"
+  ],
+  "resource_type_specific": "Neuroimaging Dataset",
+  "sizes": [
+    "923.3 MB (2913 files)"
+  ],
+  "formats": [
+    ".gz",
+    ".json",
+    ".md",
+    ".sh",
+    ".tsv",
+    ".yml"
+  ],
+  "description": "The Brain, Body, and Behaviour Dataset (BBBD) is a multimodal physiological dataset comprising 27 subjects across two sessions during educational video viewing. Experiment 1 focuses on eye-tracking measurements including gaze position, pupil size, blinks, saccades, and fixations recorded while subjects watched five informative videos under attentive (with post-video testing) and distracted (with concurrent counting task) conditions. This dataset supports research on attention, learning, and cognitive engagement during multimedia presentation.",
+  "methods_description": "Eye-tracking data were collected while subjects viewed five educational videos under two conditions: attentive (with subsequent multiple-choice questionnaires) and distracted (with concurrent backwards counting task). Raw recordings were converted from .mat files to .bdf format for EEG and .tsv.gz format for physiological and eye-tracking data using MATLAB. Derived data include processed eye-tracking metrics (saccades, fixations, blinks with associated rates) and filtered pupil/gaze signals.",
+  "keywords": [
+    {
+      "term": "eye tracking"
+    },
+    {
+      "term": "attention"
+    },
+    {
+      "term": "learning"
+    },
+    {
+      "term": "pupil size"
+    },
+    {
+      "term": "gaze"
+    },
+    {
+      "term": "educational videos"
+    },
+    {
+      "term": "behavioral data"
+    },
+    {
+      "term": "saccades"
+    },
+    {
+      "term": "fixations"
+    },
+    {
+      "term": "cognitive engagement"
+    },
+    {
+      "term": "divided attention"
+    }
+  ],
+  "source_hash": "f6dac8d87bf4fddc98210408519815d51c8f9e45b59703eb3a1af2f476252ee0"
+}
