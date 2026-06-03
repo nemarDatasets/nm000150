@@ -1,1 +1,31 @@
-/annex/objects/SHA256E-s816--db403714f12ebcdd2f7bbb2970978237c43474501063e013ac1622ec81f13a10.json
+{
+  "Name": "The Brain, Body, and Behaviour Dataset (1.0.0) - Experiment 1",
+  "BIDSVersion": "1.10.0",
+  "DatasetType": "derivative",
+  "License": "CC BY 4.0",
+  "Authors": [
+    "Jens Madsen",
+    "Nikhil Kuppa",
+    "Lucas Parra"
+  ],
+  "Acknowledgements": "We acknowledge the National Science Foundation Grant DRL-1660548 for supporting this project.",
+  "HowToAcknowledge": "Please cite: Madsen, J., Kuppa, N., & Parra, L. C. (2026). The Brain, Body, and Behavior Dataset (BBBD): Multimodal Recordings during Educational Videos. Scientific Data. https://doi.org/10.1038/s41597-026-07215-1",
+  "DatasetDOI": "doi:10.1038/s41597-026-07215-1",
+  "ReferencesAndLinks": [
+    "https://doi.org/10.1038/s41597-026-07215-1",
+    "https://doi.org/10.1101/2025.04.29.651259",
+    "https://bbbd.pythonanywhere.com/"
+  ],
+  "Funding": [
+    "DRL-2201835"
+  ],
+  "EthicsApprovals": [
+    "The City University of New York (CUNY) University Integrated Institutional Review Board"
+  ],
+  "GeneratedBy": [
+    {
+      "Name": "Manual",
+      "Description": "MATLAB: Converted .mat files to .bdf files for EEG recordings, and .mat files to tsv.gz files for physiological and eyetracking recordings (eg: ECG, gaze etc)"
+    }
+  ]
+}
