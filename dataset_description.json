@@ -10,7 +10,7 @@
   ],
   "Acknowledgements": "We acknowledge the National Science Foundation Grant DRL-1660548 for supporting this project.",
   "HowToAcknowledge": "Please cite: Madsen, J., Kuppa, N., & Parra, L. C. (2026). The Brain, Body, and Behavior Dataset (BBBD): Multimodal Recordings during Educational Videos. Scientific Data. https://doi.org/10.1038/s41597-026-07215-1",
-  "DatasetDOI": "doi:10.1038/s41597-026-07215-1",
+  "DatasetDOI": "10.82901/nemar.nm000150",
   "ReferencesAndLinks": [
     "https://doi.org/10.1038/s41597-026-07215-1",
     "https://doi.org/10.1101/2025.04.29.651259",
@@ -27,5 +27,11 @@
       "Name": "Manual",
       "Description": "MATLAB: Converted .mat files to .bdf files for EEG recordings, and .mat files to tsv.gz files for physiological and eyetracking recordings (eg: ECG, gaze etc)"
     }
-  ]
+  ],
+  "SourceDatasets": [
+    {
+      "DOI": "doi:10.1038/s41597-026-07215-1"
+    }
+  ],
+  "Version": "1.0.0"
 }
