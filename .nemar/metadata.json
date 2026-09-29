@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "The Brain, Body, and Behaviour Dataset (1.0.0) - Experiment 1",
-  "description": "The Brain, Body, and Behaviour Dataset (Experiment 1) is a multimodal neuroimaging dataset comprising eye-tracking recordings from 27 subjects across two sessions during educational video viewing. Subjects watched five informative videos under two conditions: an attentive condition with post-video comprehension testing, and a distracted condition with concurrent cognitive load (backward counting). The dataset includes gaze coordinates, pupil size, blinks, saccades, and fixations, along with behavioral questionnaires assessing domain knowledge and memory retention, providing a resource for studying attention dynamics and learning outcomes.",
-  "methods_description": "Eye-tracking data were collected while subjects viewed five educational videos under two experimental conditions: attentive (with post-video multiple-choice questions) and distracted (with concurrent backward counting task). Gaze position, pupil size, blinks, saccades, and fixations were recorded. Raw data were converted from MATLAB .mat files to .bdf format for EEG and .tsv.gz format for physiological and eye-tracking recordings using custom MATLAB scripts.",
+  "description": "Eye-tracking data from 27 participants who watched five short educational videos in two sessions: an attentive condition, followed by memory questions, and a distracted condition in which they silently counted backwards. The dataset includes gaze position, pupil size, blinks, saccades and fixations, plus questionnaire responses. It is Experiment 1 of the Brain, Body, and Behavior Dataset (BBBD), which supports research on attention and learning from educational video.",
+  "methods_description": "Participants watched five informative videos while gaze and pupil size were tracked. In the attentive session they answered 11-12 multiple-choice factual questions after each video. In the distracted session they watched the same videos in the same order while silently counting backwards from a random prime number in steps of 7, with no test afterward. Video and question order was randomized.",
   "license": "CC BY 4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -21,35 +21,36 @@
       "term": "attention"
     },
     {
-      "term": "learning"
-    },
-    {
       "term": "pupil size"
-    },
-    {
-      "term": "gaze"
     },
     {
       "term": "educational videos"
     },
     {
-      "term": "cognitive load"
+      "term": "learning"
     },
     {
-      "term": "educational learning"
+      "term": "fixations"
     },
     {
-      "term": "comprehension"
+      "term": "memory"
     },
     {
-      "term": "multimodal"
+      "term": "Saccades",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D012438"
+    },
+    {
+      "term": "Blinking",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D001767"
     }
   ],
   "related_identifiers": [
     {
       "identifier": "10.1101/2025.04.29.651259",
       "identifier_type": "DOI",
-      "relation_type": "References"
+      "relation_type": "IsDescribedBy"
     },
     {
       "identifier": "https://github.com/nemarDatasets/nm000150",
@@ -57,24 +58,24 @@
       "relation_type": "IsDescribedBy"
     },
     {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=nm000150",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
       "identifier": "10.1038/s41597-026-07215-1",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/nm000150",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "funding_references": [
     {
       "funder_name": "National Science Foundation",
-      "award_number": "DRL-1660548"
+      "award_number": "DRL-2201835"
     },
     {
       "funder_name": "National Science Foundation",
-      "award_number": "DRL-2201835"
+      "award_number": "DRL-1660548"
     }
   ],
   "resource_type_general": "Dataset",
@@ -83,7 +84,7 @@
     "beh"
   ],
   "sizes": [
-    "923.3 MB (2913 files)"
+    "880 MB (2913 files)"
   ],
   "formats": [
     ".gz",
