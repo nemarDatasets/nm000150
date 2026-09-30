@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "validated",
+  "pipeline_stage": "enriched",
   "title": "The Brain, Body, and Behaviour Dataset (1.0.0) - Experiment 1",
-  "description": "Eye-tracking recordings from 27 participants who watched five educational videos in two sessions: an attentive condition with subsequent factual multiple-choice questions, and a distracted condition where participants silently counted backwards. Data include gaze position, pupil size, blinks, saccades and fixations, together with questionnaire responses. It is Experiment 1 of the Brain, Body, and Behavior Dataset (BBBD) of multimodal recordings during educational videos.",
-  "methods_description": "Participants watched five informative YouTube videos while gaze and pupil size were tracked. In the attentive session they knew they would be tested and answered 11-12 multiple-choice questions after each video. In the distracted session they rewatched the videos in the same order while silently counting backwards from a random prime number in steps of 7, with no questions afterwards.",
+  "description": "Eye-tracking data from 27 participants who watched five educational videos in two sessions: an attentive condition, in which participants were tested afterward with multiple-choice questions, and a distracted condition, in which they silently counted backwards. The dataset includes gaze, pupil size, blinks, saccades and fixations, plus questionnaires with domain and memory questions. It is Experiment 1 of the Brain, Body, and Behavior Dataset (BBBD) and supports research on attention and learning from video.",
+  "methods_description": "Participants watched five informative YouTube videos while gaze position and pupil size were tracked. In the attentive session (ses-01) they answered 11-12 factual multiple-choice questions after each video. In the distracted session (ses-02) they watched the same videos in the same order while silently counting backwards from a random prime number in steps of 7, with no questions afterward. Videos and questions were presented in random order.",
   "license": "CC BY 4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -30,10 +30,10 @@
       "term": "learning"
     },
     {
-      "term": "Pupil"
+      "term": "distraction"
     },
     {
-      "term": "Eye Movements"
+      "term": "multimodal recordings"
     }
   ],
   "related_identifiers": [
